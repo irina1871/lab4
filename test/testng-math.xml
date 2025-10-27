@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Math Tests Suite" verbose="1">
+    <test name="Math Tests">
+        <groups>
+            <run>
+                <include name="math"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="org.example.*"/>
+        </packages>
+    </test>
+</suite>
